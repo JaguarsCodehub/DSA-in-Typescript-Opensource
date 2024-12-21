@@ -1,0 +1,8 @@
+{
+  "name": "DSA_in_Typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JaguarsCodehub/DSA-in-Typescript-Opensource.git",
+  "author": "Jyotindra Tavanoji <tavanojijyotindra@gmail.com>",
+  "license": "MIT"
+}
