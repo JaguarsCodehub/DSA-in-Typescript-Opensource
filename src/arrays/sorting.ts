@@ -50,14 +50,42 @@
 // console.log(mergeSort([5, 3, 8, 4, 2])); // Output: [2, 3, 4, 5, 8]
 
 // Reverse an array
-function reverseArray(arr: number[]): number[] {
-    let left = 0, right = arr.length - 1;
-    while(left < right) {
-        [arr[left], arr[right]] = [arr[right], arr[left]];
-        left++;
-        right--;
-    }
-    return arr
-}
+// function reverseArray(arr: number[]): number[] {
+//     let left = 0, right = arr.length - 1;
+//     while(left < right) {
+//         [arr[left], arr[right]] = [arr[right], arr[left]];
+//         left++;
+//         right--;
+//     }
+//     return arr
+// }
 
-console.log(reverseArray([5,6,7,8,9,10]));
+// console.log(reverseArray([5,6,7,8,9,10]));
+
+// Rotate an Array
+// function rotateArray(arr: number[], k: number): number[] {
+//     for (let i = 0; i < k; i++) {
+//         const temp = arr[arr.length - 1];
+//         for (let j = arr.length - 1; j> 0; j--) {
+//             arr[j] = arr[j-1];
+//         }
+//         arr[0] = temp;
+//     }
+//     return arr
+// }
+
+// console.log(rotateArray([2,3,4,5,6,7], 3))
+
+// Two sum
+// function twoSum(arr: number[], target: number): [number, number] | null {
+//     const map = new Map<number, number>();
+
+//     for (let i = 0; i< arr.length; i++) {
+//         const complement = target - arr[i];
+//         if(map.has(complement)) return [map.get(complement)!, i];
+//         map.set(arr[i], i)
+//     }
+//     return null
+// }
+
+// console.log(twoSum([5,2,8,3], 13));
