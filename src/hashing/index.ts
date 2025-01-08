@@ -47,10 +47,10 @@
 // console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
 
 // Contains duplicate
-function containsDuplicate(nums: number[]): boolean {
-    const set = new Set(nums);
-    return set.size !== nums.length
-}
+// function containsDuplicate(nums: number[]): boolean {
+//     const set = new Set(nums);
+//     return set.size !== nums.length
+// }
 
-console.log(containsDuplicate([1, 2, 3, 1])); // Output: true
+// console.log(containsDuplicate([1, 2, 3, 1])); // Output: true
 // console.log(containsDuplicate([1, 2, 3, 4])); // Output: false
