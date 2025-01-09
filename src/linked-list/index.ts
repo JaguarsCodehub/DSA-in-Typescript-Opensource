@@ -27,3 +27,9 @@ class ListNode {
 //     new ListNode(6),
 //     new ListNode(8)))
 
+
+// Middle Node of a Linked List
+// function middleNode(head: ListNode | null): ListNode | null {
+//   const slow = head;
+//   const fast = head;
+// }
