@@ -1,4 +1,4 @@
-function isValid(s: string): boolean {
+function isValidParenthesis(s: string): boolean {
   const stack: string[] = [];
   const matchingBrackets: Record<string, string> = {
     '(': ')',
