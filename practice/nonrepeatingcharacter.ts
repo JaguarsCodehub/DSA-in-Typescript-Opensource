@@ -7,6 +7,3 @@
 // }
 
 // console.log(nonRepeatingCharacter("aabbccdeffg"));
-
-
-
